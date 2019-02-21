@@ -43,8 +43,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="BorderDecorator.cs" />
+    <Compile Include="Decorator.cs" />
+    <Compile Include="IWidget.cs" />
+    <Compile Include="..\..\..\..\Desktop\Desktop Files go here\DecoratorDemo.cs">
+      <Link>DecoratorDemo.cs</Link>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ScrollDecorator.cs" />
+    <Compile Include="TextField.cs" />
+    <Compile Include="ThickBorder.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
